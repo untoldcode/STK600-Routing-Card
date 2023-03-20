@@ -1,0 +1,21 @@
+(footprint "stk600-mounting-hole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5B924765)
+  (descr "Mounting Hole 2.1mm, no annular")
+  (tags "mounting hole 2.1mm no annular")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 1.27) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9ec52788-1f16-4491-b030-1890f5049442)
+  )
+  (fp_text value "stk600-mounting-hole" (at 0 3.2) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d4b4da2e-a42a-4785-9440-5f8f106a67e3)
+  )
+  (fp_text user "${REFERENCE}" (at 0 10.16) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 255fb663-ab55-4c39-a382-a76db36daf37)
+  )
+  (pad "GND" thru_hole oval (at 0 0 315) (size 11 11) (drill oval 2 10.1) (layers *.Cu *.Mask) (tstamp 1a234797-6f8e-4f74-88d8-62d2bf9acc6f))
+  (pad "GND" thru_hole circle (at 0 0) (size 11 11) (drill 4.2) (layers *.Cu *.Mask) (tstamp dbfadad2-3821-4955-9fa1-00d6bb17aaa5))
+)
